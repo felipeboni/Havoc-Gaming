@@ -1,0 +1,48 @@
+// INDUSTRY Font
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: 300;
+  src: url('../fonts/Industry-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: 400;
+  src: url('../fonts/Industry-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: 500;
+  src: url('../fonts/Industry-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: normal;
+  src: url('../fonts/Industry-Demi.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: 800;
+  src: url('../fonts/Industry-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Industry';
+  font-weight: 900;
+  src: url('../fonts/Industry-Black.woff') format('woff');
+}
+
+$primary: #f40023;
+
+::selection {
+  background-color: $primary;
+  color: #fff;
+}
+
+* :is(a, li, h1, h2, h3, h4, h6, span, p) {
+  font-family: 'Industry'!important;
+}
